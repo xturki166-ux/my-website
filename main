@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>صفحة الاشتراكات</title>
+
+    <!-- ربط ملف CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+    <h1>منصتي للألعاب</h1>
+    <p>اشترك واستمتع بأفضل الألعاب بأرخص سعر</p>
+</header>
+
+<!-- ================= INSTRUCTIONS ================= -->
+<section class="instructions">
+    <h2>طريقة الاستخدام</h2>
+    <ol>
+        <li>اختر الباقة المناسبة لك</li>
+        <li>أكمل عملية الدفع</li>
+        <li>استلم الحساب فورًا</li>
+        <li>ابدأ اللعب مباشرة 🎮</li>
+    </ol>
+</section>
+
+<!-- ================= SUBSCRIPTIONS ================= -->
+<section class="subscriptions">
+    <h2>الاشتراكات</h2>
+
+    <div class="plans">
+
+        <div class="plan">
+            <h3>شهر</h3>
+            <p class="price">20 ريال</p>
+            <button>اشترك الآن</button>
+        </div>
+
+        <div class="plan popular">
+            <h3>3 شهور</h3>
+            <p class="price">50 ريال</p>
+            <button>الأكثر طلبًا</button>
+        </div>
+
+        <div class="plan">
+            <h3>سنة</h3>
+            <p class="price">150 ريال</p>
+            <button>اشترك الآن</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="faq">
+    <h2>الأسئلة الشائعة</h2>
+
+    <div class="faq-item">
+        <h4>هل الحساب دائم؟</h4>
+        <p>نعم، الحساب ضمان مدى الحياة.</p>
+    </div>
+
+    <div class="faq-item">
+        <h4>هل أقدر ألعب أوفلاين؟</h4>
+        <p>نعم، تقدر تلعب بدون إنترنت بعد التفعيل.</p>
+    </div>
+
+    <div class="faq-item">
+        <h4>هل في استرجاع؟</h4>
+        <p>لا يوجد استرجاع بعد تسليم الحساب.</p>
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>© 2026 جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
